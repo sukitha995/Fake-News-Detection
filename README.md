@@ -1,4 +1,5 @@
-📰 Fake News Detection Using Machine Learning
+#📰 Fake News Detection Using Machine Learning
+
 📌 Overview
 
 This project focuses on detecting fake news using Machine Learning and Natural Language Processing (NLP) techniques.
@@ -6,7 +7,9 @@ The goal is to classify news articles as “True” or “Fake” based on their
 
 The project uses TF-IDF for text vectorization and multiple machine learning models to compare their performance, including Logistic Regression, Decision Tree, Random Forest, and Naive Bayes.
 
-⚙️ Features
+
+
+#⚙️ Features
 
 Preprocessing and merging of real and fake news datasets
 
@@ -22,7 +25,9 @@ Identification of most indicative words for fake and true news
 
 WordCloud generation for visual insights
 
-🧠 Machine Learning Models Used
+
+
+#🧠 Machine Learning Models Used
 
 Logistic Regression
 
@@ -32,7 +37,9 @@ Random Forest Classifier
 
 Multinomial Naive Bayes
 
-📊 Evaluation Metrics
+
+
+#📊 Evaluation Metrics
 
 Each model is evaluated on:
 
@@ -48,7 +55,9 @@ ROC-AUC Curve
 
 The results are compared visually using bar charts and ROC curves for better understanding.
 
-📂 Dataset
+
+
+#📂 Dataset
 
 The dataset consists of two CSV files:
 
@@ -64,7 +73,9 @@ Each dataset is labeled with a class value:
 
 After merging, the combined dataset is shuffled and split into training and testing sets.
 
-🧰 Tech Stack
+
+
+#🧰 Tech Stack
 
 Language: Python
 Libraries Used:
@@ -81,7 +92,9 @@ sklearn
 
 wordcloud
 
-📈 Output Visualizations
+
+
+#📈 Output Visualizations
 
 Model Performance Comparison (Bar Chart)
 
@@ -93,7 +106,9 @@ Top Indicative Words for true and fake news
 
 WordClouds for text visualization
 
-💡 Insights
+
+
+#💡 Insights
 
 Logistic Regression and Random Forest often achieve the best balance between accuracy and interpretability.
 
@@ -101,7 +116,9 @@ TF-IDF effectively captures important textual patterns for distinguishing fake v
 
 Visualization of indicative words helps in understanding how models make predictions.
 
-🏁 Conclusion
+
+
+#🏁 Conclusion
 
 This project demonstrates how machine learning and NLP can be used to automatically detect misinformation.
 It can be further extended by:
